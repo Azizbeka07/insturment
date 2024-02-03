@@ -1,0 +1,97 @@
+.header__content {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+
+  &__num {
+    color: $black;
+    font-size: 25px;
+    font-weight: 600;
+  }
+
+  &__applications {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  &__btn {
+    padding: 9px 15px;
+    border-radius: 3px;
+    background: $orange;
+    color: $white;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  &__user {
+    width: 37px;
+    height: 37px;
+    border-radius: 3px;
+    padding: 7px;
+    background-color: $blue;
+  }
+}
+
+// Antd serch input style
+
+.input {
+  max-width: 332px;
+}
+
+.ant-input-search
+  > .ant-input-group
+  > .ant-input-group-addon:last-child
+  .ant-input-search-button {
+  padding-top: 0;
+  padding-bottom: 0;
+  border-start-start-radius: 6px;
+  border-start-end-radius: 6px;
+  border-end-end-radius: 6px;
+  border-end-start-radius: 6px;
+  box-shadow: none;
+}
+.ant-input-search-large .ant-input-search-button {
+  height: 30px;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+}
+
+.ant-input-group .ant-input-affix-wrapper:not(:last-child) {
+  border-start-end-radius: 6px;
+  border-end-end-radius: 6px;
+  width: 292px;
+  height: 38px;
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected,
+.ant-menu-light > .ant-menu.ant-menu-horizontal > .ant-menu-item-selected,
+.ant-menu-light.ant-menu-horizontal > .ant-menu-submenu-selected,
+.ant-menu-light > .ant-menu.ant-menu-horizontal > .ant-menu-submenu-selected {
+  color: $white;
+  background-color: $blue;
+}
+
+.ant-menu-light.ant-menu-horizontal > .ant-menu-item-selected:hover,
+.ant-menu-light > .ant-menu.ant-menu-horizontal > .ant-menu-item-selected:hover,
+.ant-menu-light.ant-menu-horizontal > .ant-menu-submenu-selected:hover,
+horizontal > .ant-menu-submenu-selected:hover {
+  background-color: $blue;
+}
+
+.ant-menu-light,
+.ant-menu-light > .ant-menu {
+  font-size: 16px;
+  font-weight: 400;
+  color: $black;
+  background: $darkWhite;
+}
+
+.ant-menu-horizontal {
+  line-height: 46px;
+  border: 0;
+  border-bottom: none;
+  box-shadow: none;
+}

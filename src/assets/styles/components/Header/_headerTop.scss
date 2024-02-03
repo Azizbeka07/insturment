@@ -1,0 +1,41 @@
+.header {
+  padding: 15px 0;
+  width: 100%;
+  background-color: $darkWhite;
+
+  &__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    &__left {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+
+    &__center {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+    }
+     
+    &__right {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+    }
+
+    &__text {
+      color: $black;
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    &__construction {
+      color: $lightGray;
+      font-size: 16px;
+      font-weight: 400;
+    }
+  }
+}
