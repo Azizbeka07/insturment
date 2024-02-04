@@ -59,6 +59,12 @@
         font-weight: 600;
         color: $white;
     }
+
+    &__bottom {
+      margin-top: 50px;
+      width: 100%;
+      color: $gray;
+    }
   }
 }
 
