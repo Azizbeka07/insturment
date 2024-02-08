@@ -38,7 +38,7 @@ const Banner = () => {
         <SwiperSlide>
           <h1 className="slide__title">FUBAG ГЕНЕРАТОРЫ</h1>
           <p className="slide__text">
-          Большой выбор снегоуборочных машин. Качественные устройства для
+            Большой выбор снегоуборочных машин. Качественные устройства для
             любого бюджета
           </p>
           <button className="slide__btn">Подробнее</button>
